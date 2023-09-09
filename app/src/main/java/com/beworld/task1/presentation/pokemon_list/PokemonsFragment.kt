@@ -1,14 +1,13 @@
-package com.beworld.task1.presentation.major
+package com.beworld.task1.presentation.pokemon_list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.beworld.task1.R
 import com.beworld.task1.databinding.FragmentMajorBinding
 
-class MajorFragment : Fragment() {
+class PokemonsFragment : Fragment() {
     private var _binding: FragmentMajorBinding? = null
     private val binding get() = _binding!!
 

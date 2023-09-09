@@ -1,11 +1,10 @@
-package com.beworld.task1.presentation.about
+package com.beworld.task1.presentation.about_app
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.beworld.task1.R
 import com.beworld.task1.databinding.FragmentAboutBinding
 
 class AboutFragment : Fragment() {

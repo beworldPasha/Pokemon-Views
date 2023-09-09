@@ -1,11 +1,10 @@
-package com.beworld.task1.presentation.info
+package com.beworld.task1.presentation.pokemon_info
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.beworld.task1.R
 import com.beworld.task1.databinding.FragmentInfoBinding
 
 class InfoFragment : Fragment() {

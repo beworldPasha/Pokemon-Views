@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pokemon_item_height">112dp</dimen>
+    <dimen name="pokemon_item_corner_radius">16dp</dimen>
+    <dimen name="pokemon_item_image_size">96dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+</resources>

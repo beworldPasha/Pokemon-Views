@@ -10,3 +10,14 @@
 
 
 Фрагмент из ответа на запрос информации про Ditto (https://pokeapi.co/api/v2/pokemon/ditto):
+
+
+1. Сделать дизайн (сразу с bottom nav):
+    nav_graph(FragmentContainerView) для bottom nav и transactions для кнопок,
+    в транзакциях можно накрутить анимацию
+2. В приложении будет камера
+3. MVVM + Clear Arch (Use cases)
+4. Юзаю LiveData
+5. Кеширование (Retrofit -> Room -> Presentation) + можно PagingData
+6. Юзаю Dagger Hilt для di
+7. Создать свой поток (можно наверное и IO, я спрошу), пишем с корутинами и потоками
