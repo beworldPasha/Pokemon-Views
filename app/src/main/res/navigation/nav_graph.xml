@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokemons_graph">
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.beworld.task1.presentation.about_app.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+
+    <navigation android:id="@+id/pokemons_graph"
+        app:startDestination="@id/pokemonsFragment">
+        <fragment
+            android:id="@+id/pokemonsFragment"
+            android:name="com.beworld.task1.presentation.pokemon_list.PokemonsFragment"
+            android:label="fragment_pokemons"
+            tools:layout="@layout/fragment_pokemons">
+            <action
+                android:id="@+id/action_pokemonsFragment_to_aboutFragment"
+                app:destination="@id/aboutFragment" />
+            <action
+                android:id="@+id/action_pokemonsFragment_to_cameraFragment"
+                app:destination="@id/camera_graph" />
+            <action
+                android:id="@+id/action_pokemonsFragment_to_pokemonDetailFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:destination="@id/pokemonDetailFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/pokemonDetailFragment"
+            android:name="com.beworld.task1.presentation.pokemon_info.PokemonDetailFragment"
+            android:label="fragment_info"
+            tools:layout="@layout/fragment_info" />
+    </navigation>
+    <navigation android:id="@+id/camera_graph"
+        app:startDestination="@id/photosFragment">
+        <fragment
+            android:id="@+id/photosFragment"
+            android:name="com.beworld.task1.presentation.photo_list.PhotosFragment"
+            android:label="fragment_photos"
+            tools:layout="@layout/fragment_photos">
+            <action
+                android:id="@+id/action_photosFragment_to_cameraFragment"
+                app:destination="@id/cameraFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/cameraFragment"
+            android:name="com.beworld.task1.presentation.camera.CameraFragment"
+            android:label="fragment_camera"
+            tools:layout="@layout/fragment_camera" />
+    </navigation>
+</navigation>

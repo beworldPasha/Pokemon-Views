@@ -4,4 +4,11 @@
     <dimen name="pokemon_item_corner_radius">16dp</dimen>
     <dimen name="pokemon_item_image_size">96dp</dimen>
     <dimen name="medium_margin">16dp</dimen>
+    <dimen name="high_margin">32dp</dimen>
+    <dimen name="large_margin">64dp</dimen>
+
+    <dimen name="camera_preview_vertical_margin">100dp</dimen>
+
+    <dimen name="photo_width">300dp</dimen>
+    <dimen name="photo_height">500dp</dimen>
 </resources>

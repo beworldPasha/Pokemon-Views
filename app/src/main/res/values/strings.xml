@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Pokemons Info</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home_title">Home</string>
+    <string name="camera_title">Camera</string>
+    <string name="faq_title">FAQ</string>
+
     <string name="pokemon_type_template">Type:</string>
+    <string name="photo_date">Date:</string>
 </resources>

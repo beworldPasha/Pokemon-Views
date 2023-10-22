@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="RoundedImage">
+    <style name="CircleImage">
         <item name="cornerSize">50%</item>
+    </style>
+    <style name="RoundedImage">
+        <item name="cornerSize">25%</item>
+    </style>
+    <style name="RounderSquare">
+        <item name="cornerSize">10%</item>
     </style>
 </resources>

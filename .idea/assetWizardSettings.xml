@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\bewor\Desktop\807246_star_512x512.png" />
+                                                <entry key="imagePath" value="C:\Users\bewor\Desktop\ic_launcher.png" />
                                                 <entry key="scalingPercent" value="49" />
                                               </map>
                                             </option>
@@ -113,7 +113,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="3ddcdc" />
+                                      <entry key="backgroundColor" value="f8bcbc" />
                                     </map>
                                   </option>
                                 </PersistentState>
