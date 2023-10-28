@@ -16,6 +16,7 @@ import okhttp3.internal.toImmutableList
 
 class PokemonsListAdapter(
     private val callback: AdapterCallback
+
 ) :
     RecyclerView.Adapter<PokemonsListAdapter.PokemonsListViewHolder>() {
     class PokemonsListViewHolder(val binding: PokemonsListItemBinding) :
